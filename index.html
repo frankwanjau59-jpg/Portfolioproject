@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer Portfolio | C, C++, Python & Web</title>
+  <link rel="stylesheet" href="syle.css" />
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="#" class="logo">Frank wanjau</a>
+      <ul class="nav-links">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Hi, I'm <span class="accent">Frank</span>.</h1>
+      <p>Software Developer specializing in low-level systems (C/C++), backend automation (Python), and modern web interfaces.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Technical Proficiency</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Systems Programming</h3>
+          <p><strong>C &amp; C++:</strong> Memory management, pointers, OOP, STL, multithreading, and performance optimization.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend &amp; Scripting</h3>
+          <p><strong>Python:</strong> Automation, data structures, REST APIs, file parsing, and algorithmic problem solving.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend Web</h3>
+          <p><strong>HTML, CSS &amp; JS:</strong> Semantic markup, responsive Flexbox/Grid layouts, and DOM manipulation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+      
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="c-cpp">C / C++</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="web">HTML/CSS/JS</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-category="c-cpp">
+          <span class="tag">C++</span>
+          <h3>Pathfinding Visualizer</h3>
+          <p>Implemented A* and Dijkstra’s algorithms in C++ to find shortest paths across weighted grids with high frame rates.</p>
+          <a href="https://github.com/" target="_blank">Source Code &rarr;</a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-category="c-cpp">
+          <span class="tag">C</span>
+          <h3>Custom Unix Shell</h3>
+          <p>Built a lightweight command-line shell in C supporting piping, I/O redirection, and process management via system calls.</p>
+          <a href="https://github.com/" target="_blank">Source Code &rarr;</a>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-category="python">
+          <span class="tag">Python</span>
+          <h3>Automated Log Analyzer</h3>
+          <p>Python CLI tool using regex and dictionaries to parse gigabytes of server logs and flag security anomalies.</p>
+          <a href="https://github.com/" target="_blank">Source Code &rarr;</a>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card" data-category="web">
+          <span class="tag">HTML / CSS / JS</span>
+          <h3>Interactive Sorting Sandbox</h3>
+          <p>Browser-based visualization of QuickSort and MergeSort built using vanilla JavaScript and CSS Grid animations.</p>
+          <a href="https://github.com/" target="_blank">Source Code &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Get In Touch</h2>
+      <p>Interested in collaborating or reviewing my repositories? Reach out below.</p>
+      <div class="contact-links">
+        <a href="mailto:you@example.com" class="btn">Email Me</a>
+        <a href="https://github.com/" target="_blank" class="btn btn-outline">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Your Name. Built with HTML, CSS &amp; Vanilla JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
